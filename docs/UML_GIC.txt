@@ -1,0 +1,52 @@
+classDiagram
+
+class Cliente {
+    +id: int
+    +nombre: str
+    +email: str
+    +telefono: str
+    +direccion: str
+    +mostrar_info(): str
+}
+
+class ClienteRegular {
+    +puntos: int
+    +calcular_descuento(): float
+}
+
+class ClientePremium {
+    +nivel_membresia: str
+    +beneficios(): str
+}
+
+class ClienteCorporativo {
+    +empresa: str
+    +limite_credito: float
+    +calcular_facturacion(): float
+}
+
+class GestorClientes {
+    -clientes: list
+    +agregar_cliente()
+    +editar_cliente()
+    +eliminar_cliente()
+    +guardar_txt()
+    +cargar_txt()
+}
+
+class LoggerSistema {
+    +registrar_evento()
+    +registrar_error()
+}
+
+class ExcepcionCliente {
+    +mensaje: str
+}
+
+ClienteRegular --|> Cliente
+ClientePremium --|> Cliente
+ClienteCorporativo --|> Cliente
+
+GestorClientes "1" *-- "*" Cliente
+GestorClientes --> LoggerSistema
+GestorClientes ..> ExcepcionCliente

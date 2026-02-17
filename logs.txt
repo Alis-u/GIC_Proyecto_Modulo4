@@ -1,0 +1,20 @@
+[2026-02-12 22:29:20] EVENTO: Cliente creado correctamente
+[2026-02-12 22:29:20] ERROR: Email inválido
+[2026-02-13 01:03:09] EVENTO: Cliente creado correctamente
+[2026-02-13 01:03:09] ERROR: Email inválido
+[2026-02-13 01:07:26] EVENTO: Cliente creado correctamente
+[2026-02-13 01:07:26] ERROR: Email inválido
+[2026-02-15 23:17:48] EVENTO: Cliente creado correctamente
+[2026-02-15 23:17:48] ERROR: Email inválido
+[2026-02-16 01:00:28] EVENTO: Cliente creado correctamente
+[2026-02-16 01:00:28] ERROR: Email inválido
+[2026-02-16 01:00:47] EVENTO: Cliente creado correctamente
+[2026-02-16 01:00:47] ERROR: Email inválido
+[2026-02-16 01:03:56] EVENTO: Cliente creado correctamente
+[2026-02-16 01:03:56] ERROR: Email inválido
+[2026-02-16 01:04:14] EVENTO: Cliente creado correctamente
+[2026-02-16 01:04:14] ERROR: Email inválido
+[2026-02-16 01:51:03] EVENTO: Cliente creado correctamente
+[2026-02-16 01:51:03] ERROR: Email inválido
+[2026-02-16 01:51:23] EVENTO: Cliente creado correctamente
+[2026-02-16 01:51:23] ERROR: Email inválido
